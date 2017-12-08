@@ -24,16 +24,17 @@ y = tf.placeholder("float")
 '''The neural network model'''
 
 def nn_model(data):
-    conv = [hidden_layer([5,5,1,32],[32]),
-            hidden_layer([5,5,32,64],[64])]
+    conv = [hidden_layer([7,7,1,32],[32]),
+            hidden_layer([3,3,32,96],[96]),
+            hidden_layer([1,1,96,192],[192])]
 
-    full = hidden_layer([7*7*64,1024],[1024])
+    full = hidden_layer([3136,1024],[1024])
     
     out = hidden_layer([1024,n_classes],[n_classes])
 
     data = tf.reshape(data,shape=[-1,28,28,1])
 
-    one =  conv[0].convd(data, conv[0].w)
+    one = conv[0].convd(data, conv[0].w)
     one = conv[0].maxpool(one)
 
     two = conv[1].convd(one, conv[1].w)
