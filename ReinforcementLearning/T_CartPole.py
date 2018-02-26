@@ -1,4 +1,5 @@
 import gym
+import threading as t
 import numpy as np
 import tensorflow as tf
 from .Classes.LinearControll import *
@@ -14,7 +15,6 @@ env = gym.make("CartPole-v1")
 env.reset()
 
 action_space = env.action_space.n
-action_names = env.unwrapped.get_action_meanings()
 
 epsilon = EpsilonGreedy(action_space)
 
@@ -44,7 +44,13 @@ def stop():
     pass
 
 def run():
-    pass
+    print("Run","-"*20)
 
+def menu():
+    print("Menu", "-" * 20)
 if __name__ == "__main__":
-    run()
+    t_run = t.Thread(run)
+    t_menu =t.Thread(menu)
+    t_run.start()
+    t_menu.start()
+

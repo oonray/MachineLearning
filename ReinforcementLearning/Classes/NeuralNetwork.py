@@ -35,7 +35,7 @@ class NeuralNetwork:
         self.count_states_increase = tf.assign(self.count_states,self.count_states + 1)
         self.count_episodes_increase = tf.assign(self.count_episodes,self.count_episodes + 1)
 
-        self.cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self.nn_model, labels=self.y))
+        self.cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self.nn_model(self.x), labels=self.y))
         self.optimiser = tf.train.AdamOptimizer(self.learning_rate).minimize(self.cost)
 
         self.saver = tf.train.Saver()
@@ -61,7 +61,7 @@ class NeuralNetwork:
         full = tf.nn.relu(tf.add(tf.matmul(tf.reshape(two,[-1, 7*7*64]),FULLW),FULLB))
 
         OUTW = tf.Variable(tf.random_normal([1024,10]))
-        OUTB = tf.Variable(tf.random_normal([1024]))
+        OUTB = tf.Variable(tf.random_normal([10]))
 
         return tf.add(tf.matmul(full,OUTW),OUTB)
 
