@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4457d9ac-0823-4b75-b60e-a0f17aee4529" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow-Tutorials" afterPath="$PROJECT_DIR$/TensorFlow-Tutorials" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReinforcementLearning/Classes/NeuralNetwork.py" afterPath="$PROJECT_DIR$/ReinforcementLearning/Classes/NeuralNetwork.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReinforcementLearning/T_CartPole.py" afterPath="$PROJECT_DIR$/ReinforcementLearning/T_CartPole.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,22 +15,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MachineLearning$ConvolutionalNN.coverage" NAME="ConvolutionalNN Coverage Results" MODIFIED="1514247287538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeauralNetworks" />
+    <SUITE FILE_PATH="coverage/MachineLearning$BreakOut.coverage" NAME="BreakOut Coverage Results" MODIFIED="1515146400580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReinforcementLearning" />
+    <SUITE FILE_PATH="coverage/MachineLearning$ItertolsTF.coverage" NAME="ItertolsTF Coverage Results" MODIFIED="1513689694308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wordlist" />
+    <SUITE FILE_PATH="coverage/MachineLearning$CartPolePredict.coverage" NAME="CartPolePredict Coverage Results" MODIFIED="1513959588114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym" />
+    <SUITE FILE_PATH="coverage/NeuralNetwork$NNMNIST.coverage" NAME="NNMNIST Coverage Results" MODIFIED="1509906018845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MachineLearning$T_CartPole.coverage" NAME="T_CartPole Coverage Results" MODIFIED="1519681518933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReinforcementLearning" />
+    <SUITE FILE_PATH="coverage/MachineLearning$CartPoleReinforement.coverage" NAME="CartPoleReinforement Coverage Results" MODIFIED="1515061602517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym/Cartpole" />
+    <SUITE FILE_PATH="coverage/MachineLearning$CartPole.coverage" NAME="CartPole Coverage Results" MODIFIED="1513959306128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym" />
+    <SUITE FILE_PATH="coverage/MachineLearning$CartPolePredict__1_.coverage" NAME="CartPolePredict (1) Coverage Results" MODIFIED="1514036854816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym/Cartpole" />
+    <SUITE FILE_PATH="coverage/MachineLearning$ticktackToe.coverage" NAME="ticktackToe Coverage Results" MODIFIED="1517391016138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
     <SUITE FILE_PATH="coverage/MachineLearning$Layer.coverage" NAME="Layer Coverage Results" MODIFIED="1512123315611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wordlists" />
     <SUITE FILE_PATH="coverage/MachineLearning$Nn.coverage" NAME="Nn Coverage Results" MODIFIED="1512554987963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wordlists" />
-    <SUITE FILE_PATH="coverage/MachineLearning$ConvolutionalNN.coverage" NAME="ConvolutionalNN Coverage Results" MODIFIED="1514247287538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeauralNetworks" />
-    <SUITE FILE_PATH="coverage/MachineLearning$localisation.coverage" NAME="localisation Coverage Results" MODIFIED="1510304136465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Robotics" />
-    <SUITE FILE_PATH="coverage/MachineLearning$T_CartPole.coverage" NAME="T_CartPole Coverage Results" MODIFIED="1519681518933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReinforcementLearning" />
-    <SUITE FILE_PATH="coverage/MachineLearning$CartPolePredict.coverage" NAME="CartPolePredict Coverage Results" MODIFIED="1513959588114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym" />
-    <SUITE FILE_PATH="coverage/MachineLearning$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1513511220599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
-    <SUITE FILE_PATH="coverage/MachineLearning$BreakOut.coverage" NAME="BreakOut Coverage Results" MODIFIED="1515146400580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ReinforcementLearning" />
-    <SUITE FILE_PATH="coverage/NeuralNetwork$NNMNIST.coverage" NAME="NNMNIST Coverage Results" MODIFIED="1509906018845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$MachineLearning.coverage" NAME="MachineLearning Coverage Results" MODIFIED="1517385607249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/MachineLearning$CartPolePredict__1_.coverage" NAME="CartPolePredict (1) Coverage Results" MODIFIED="1514036854816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym/Cartpole" />
-    <SUITE FILE_PATH="coverage/MachineLearning$CartPole.coverage" NAME="CartPole Coverage Results" MODIFIED="1513959306128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym" />
-    <SUITE FILE_PATH="coverage/MachineLearning$CartPoleReinforement.coverage" NAME="CartPoleReinforement Coverage Results" MODIFIED="1515061602517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym/Cartpole" />
-    <SUITE FILE_PATH="coverage/MachineLearning$ItertolsTF.coverage" NAME="ItertolsTF Coverage Results" MODIFIED="1513689694308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wordlist" />
     <SUITE FILE_PATH="coverage/MachineLearning$Database.coverage" NAME="Database Coverage Results" MODIFIED="1512155482198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wordlists/Wordlists" />
-    <SUITE FILE_PATH="coverage/MachineLearning$ticktackToe.coverage" NAME="ticktackToe Coverage Results" MODIFIED="1517391016138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
+    <SUITE FILE_PATH="coverage/MachineLearning$localisation.coverage" NAME="localisation Coverage Results" MODIFIED="1510304136465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Robotics" />
+    <SUITE FILE_PATH="coverage/MachineLearning$MachineLearning.coverage" NAME="MachineLearning Coverage Results" MODIFIED="1517385607249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/MachineLearning$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1513511220599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functions" />
     <SUITE FILE_PATH="coverage/NeuralNetwork$ReocurrentNN.coverage" NAME="ReocurrentNN Coverage Results" MODIFIED="1509909378501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$CartPole__1_.coverage" NAME="CartPole (1) Coverage Results" MODIFIED="1514035700822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gym/Cartpole" />
   </component>
@@ -63,9 +63,11 @@
       <file leaf-file-name="T_CartPole.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReinforcementLearning/T_CartPole.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="599">
+              <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +75,7 @@
       <file leaf-file-name="NeuralNetwork.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Classes/NeuralNetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="1037">
               <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
               <folding />
             </state>
@@ -83,8 +85,8 @@
       <file leaf-file-name="CartPole.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Supervised Learning/Gym/Cartpole/CartPole.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-782">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -230,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,8 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -629,20 +631,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24763903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23697917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19859686" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979014" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,25 +853,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Classes/EpsilonGreedy-DESKTOP-7ABSA2A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Classes/EpsilonGreedy-DESKTOP-7ABSA2A.py" />
     <entry file="file://$PROJECT_DIR$/Supervised Learning/Gym/Cartpole/CartPole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-782">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="238">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Classes/NeuralNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="1037">
           <caret line="63" column="47" lean-forward="false" selection-start-line="63" selection-start-column="47" selection-end-line="63" selection-end-column="47" />
           <folding />
         </state>
@@ -878,9 +872,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReinforcementLearning/T_CartPole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="599">
+          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

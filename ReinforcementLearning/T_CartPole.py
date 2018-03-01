@@ -41,16 +41,21 @@ def resume():
     pass
 
 def stop():
-    pass
+    NeuralNetwork.save()
+    exit()
 
 def run():
     print("Run","-"*20)
 
 def menu():
     print("Menu", "-" * 20)
+
 if __name__ == "__main__":
-    t_run = t.Thread(run)
-    t_menu =t.Thread(menu)
-    t_run.start()
-    t_menu.start()
+    try:
+        run()
+    except Exception as e:
+        stop()
+
+    except KeyboardInterrupt:
+        stop()
 
