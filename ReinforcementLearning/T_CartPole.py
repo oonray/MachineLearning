@@ -3,59 +3,36 @@ import threading as t
 import numpy as np
 import tensorflow as tf
 from .Classes.LinearControll import *
-from .Classes.EpsilonGreedy import *
-from .Classes.ReplayMemory import *
-from .Classes.NeuralNetwork import *
+#from Classes.EpsilonGreedy import *
+#from Classes.ReplayMemory import *
+#from Classes.NeuralNetwork import *
 
-LR = 1e-3
-
-training = True
 
 env = gym.make("CartPole-v1")
-env.reset()
 
-action_space = env.action_space.n
+state = env.reset()
 
-epsilon = EpsilonGreedy(action_space)
+state_len = len(state)
+print(state_len)
 
-LerningRate = LinearControlSignal(start_value=1e-3,end_value=1e-5,num_iterations=5e6)
-LossLimit =  LinearControlSignal(start_value=0.1,end_value=0.015,num_iterations=5e6)
+itr = 0
 
-MaxEpochs = LinearControlSignal(start_value=5.0,end_value=10.0,num_iterations=5e6)
+E_start_value = 1.0
+E_end_value = 0.1
 
-ReplayFraction = LinearControlSignal(start_value=0.1,end_value=1.0,num_iterations=5e6)
+E = LinearControlSignal(E_start_value,E_end_value,num_iterations=1e6)
 
-ReplayMemory = ReplayMemory(size=200000,num_actions=action_space)
+M_Size = 20000
+S_Memory = np.zeros(shape=[M_Size,state_len])
+Q_Memory = np.zeros(shape=[M_Size,env.action_space])
+End_Game = np.zeros(shape=M_Size,dtype=np.bool)
+Rewards = np.zeros(shape=M_Size,dtype=np.float)
 
-NeuralNetwork = NeuralNetwork(num_actions=action_space,replay_memory=ReplayMemory)
 
-Rewards=[]
 
-def ResetRewards():
-    Rewards = []
 
-def pause():
-    pass
 
-def resume():
-    pass
 
-def stop():
-    NeuralNetwork.save()
-    exit()
 
-def run():
-    print("Run","-"*20)
 
-def menu():
-    print("Menu", "-" * 20)
-
-if __name__ == "__main__":
-    try:
-        run()
-    except Exception as e:
-        stop()
-
-    except KeyboardInterrupt:
-        stop()
 
