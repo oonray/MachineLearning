@@ -1,23 +1,10 @@
 import numpy as np
 
-state_height = 105
-
-# Width of each image-frame in the state.
-state_width = 80
-
-# Size of each image in the state.
-state_img_size = np.array([state_height, state_width])
-
-# Number of images in the state.
-state_channels = 2
-
-# Shape of the state-array.
-state_shape = [state_height, state_width, state_channels]
 
 class ReplayMemory:
-    def __init__(self, size, num_actions, discount_factor=0.97):
+    def __init__(self, size, num_actions, state_len, discount_factor=0.97):
         # Array for the previous states of the game-environment.
-        self.states = np.zeros(shape=[size] + state_shape, dtype=np.uint8)
+        self.states = np.zeros(shape=[int(size), int(state_len)])
 
         # Array for the Q-values corresponding to the states.
         self.q_values = np.zeros(shape=[size, num_actions], dtype=np.float)

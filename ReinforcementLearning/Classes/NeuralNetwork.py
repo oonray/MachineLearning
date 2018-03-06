@@ -18,22 +18,19 @@ state_shape = [state_height, state_width, state_channels]
 
 
 class NeuralNetwork:
-    def __init__(self, num_actions, replay_memory, restore=False):
+    def __init__(self, num_actions, replay_memory, state_len, restore=False):
         self.file = "./file.bak"
         self.session = tf.Session()
 
         self.memory = replay_memory
 
-        self.x = tf.placeholder(dtype=tf.float32, shape=[None] + state_shape, name='x')
+        self.num_actions = num_actions
+        self.state_len = state_len
 
-        self.learning_rate = tf.placeholder(dtype=tf.float32, shape=[])
-        self.y= tf.placeholder(tf.float32,shape=[None, num_actions],name='y')
+        self.x = tf.placeholder(dtype=tf.float32, shape=[None, state_len], name='x')
 
-        self.count_states = tf.Variable(initial_value=0,trainable=False, dtype=tf.int64,name='count_states')
-        self.count_episodes = tf.Variable(initial_value=0,trainable=False, dtype=tf.int64,name='count_episodes')
-
-        self.count_states_increase = tf.assign(self.count_states,self.count_states + 1)
-        self.count_episodes_increase = tf.assign(self.count_episodes,self.count_episodes + 1)
+        self.learning_rate = 1e-3
+        self.y= tf.placeholder(tf.float32,shape=[None, num_actions], name='y')
 
         self.cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=self.nn_model(self.x), labels=self.y))
         self.optimiser = tf.train.AdamOptimizer(self.learning_rate).minimize(self.cost)
@@ -41,27 +38,25 @@ class NeuralNetwork:
         self.saver = tf.train.Saver()
 
     def nn_model(self,data):
-        data = tf.reshape(data, shape=[-1, 28, 28, 1])
+        data = tf.reshape(data, shape=[-1,self.state_len])
 
-        CW = tf.Variable(tf.random_normal([5,5,1,32]))
+        CW = tf.Variable(tf.random_normal([self.state_len,32]))
         CB = tf.Variable(tf.random_normal([32]))
 
-        one = tf.nn.relu(tf.nn.conv2d(data, tf.add(CW,CB), strides=[1, 1, 1, 1], padding="SAME"))
-        one = tf.nn.max_pool(one,ksize=[1,2,2,1],strides=[1,2,2,1],padding="SAME")
+        one = tf.nn.relu((tf.matmul(data,CW)+CB))
 
-        C2W = tf.Variable(tf.random_normal([5,5,32,64]))
+        C2W = tf.Variable(tf.random_normal([32,64]))
         C2B = tf.Variable(tf.random_normal([64]))
 
-        two = tf.nn.relu(tf.nn.conv2d(one, tf.add(C2B,C2W), strides=[1, 1, 1, 1], padding="SAME"))
-        two = tf.nn.max_pool(two,ksize=[1,2,2,1],strides=[1,2,2,1],padding="SAME")
+        two = tf.nn.relu((tf.matmul(one,C2W)+C2B))
 
-        FULLW = tf.Variable(tf.random_normal([7*7*64,1024]))
+        FULLW = tf.Variable(tf.random_normal([64,1024]))
         FULLB = tf.Variable(tf.random_normal([1024]))
 
-        full = tf.nn.relu(tf.add(tf.matmul(tf.reshape(two,[-1, 7*7*64]),FULLW),FULLB))
+        full = tf.nn.relu((tf.matmul(two,FULLW)+FULLB))
 
-        OUTW = tf.Variable(tf.random_normal([1024,10]))
-        OUTB = tf.Variable(tf.random_normal([10]))
+        OUTW = tf.Variable(tf.random_normal([1024,self.num_actions]))
+        OUTB = tf.Variable(tf.random_normal([self.num_actions]))
 
         return tf.add(tf.matmul(full,OUTW),OUTB)
 

@@ -1,20 +1,5 @@
 import numpy as np
 
-state_height = 105
-
-# Width of each image-frame in the state.
-state_width = 80
-
-# Size of each image in the state.
-state_img_size = np.array([state_height, state_width])
-
-# Number of images in the state.
-state_channels = 2
-
-# Shape of the state-array.
-state_shape = [state_height, state_width, state_channels]
-
-
 class LinearControlSignal:
     """
     A control signal that changes linearly over time.
