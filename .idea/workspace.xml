@@ -2,10 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99adbfd1-0555-4b5b-aef7-bf4e13dc1f81" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/MachineLearning.iml" afterPath="$PROJECT_DIR$/.idea/MachineLearning.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/sales_data_test.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/sales_data_training.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN - Tensorboard + Pandas.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Functions/LogisticRegression.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Functions/linear_regression.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Functions/softmax.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Functions/ticktackToe.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/AnnotationAuthorStorage.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/CalculationEngine.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Document.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/DocumentMetadata.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/DocumentStylesheet.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Metadata.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-2.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-3.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-4.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-5.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-6.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-7.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-8.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList-9.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/DataList.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/HeaderStorageBucket-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/HeaderStorageBucket.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-10.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-11.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-12.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-2.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-3.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-4.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-5.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-6.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-7.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-8.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile-9.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/Tables/Tile.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Index/ViewState.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Metadata/BuildVersionHistory.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Metadata/DocumentIdentifier" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/Metadata/Properties.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/preview-micro.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/preview-web.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_test/preview.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/AnnotationAuthorStorage.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/CalculationEngine.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Document.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/DocumentMetadata.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/DocumentStylesheet.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Metadata.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-2.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-3.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-4.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-5.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-6.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-7.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-8.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList-9.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/DataList.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/HeaderStorageBucket-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/HeaderStorageBucket.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-1.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-10.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-11.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-12.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-13.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-14.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-15.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-16.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-17.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-18.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-19.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-2.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-20.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-21.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-22.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-23.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-24.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-25.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-26.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-27.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-28.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-29.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-3.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-30.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-31.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-32.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-33.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-34.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-35.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-36.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-37.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-4.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-5.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-6.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-7.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-8.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile-9.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/Tables/Tile.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Index/ViewState.iwa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Metadata/BuildVersionHistory.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Metadata/DocumentIdentifier" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/Metadata/Properties.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/preview-micro.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/preview-web.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/Exercise Files/sales_data_training/preview.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN.py" afterPath="$PROJECT_DIR$/UnsupervisedLearning/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/Supervised Learning/Wordlist/ItertolsTF.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +139,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LyndaDNN.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN.py">
+      <file leaf-file-name="LyndaDNN - Tensorboard + Pandas.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN - Tensorboard + Pandas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sales_data_training.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/sales_data_training.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="123" lean-forward="false" selection-start-line="0" selection-start-column="109" selection-end-line="0" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -75,6 +194,7 @@
         <option value="$PROJECT_DIR$/ReinforcementLearning/Q_Learning/Qtable.py" />
         <option value="$PROJECT_DIR$/ReinforcementLearning/Q_Learning/NeuralNetwork.py" />
         <option value="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN.py" />
+        <option value="$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN - Tensorboard + Pandas.py" />
       </list>
     </option>
   </component>
@@ -85,10 +205,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="539" />
+    <option name="y" value="421" />
+    <option name="width" value="1926" />
+    <option name="height" value="1112" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -116,40 +236,35 @@
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ReinforcementLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Robotics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
-              <item name="Cartpole" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
-              <item name="Doom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="Gym" type="462c0819:PsiDirectoryNode" />
-              <item name="Starcraft2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
               <item name="NeauralNetworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Supervised Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="NeauralNetworks" type="462c0819:PsiDirectoryNode" />
+              <item name="Ex_Files_TensorFlow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="UnsupervisedLearning" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +378,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3066" height="1765" extended-state="6" />
+    <frame x="134" y="35" width="3066" height="1765" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -305,16 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Q_Learning/Qtable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Q/T_CartPole.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -623,6 +728,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Supervised Learning/Wordlist/ItertolsTF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions/ticktackToe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-438">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnsupervisedLearning/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/sales_data_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReinforcementLearning/Q_Learning/Qtable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -633,11 +770,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN.py">
+    <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/Ex_Files_TensorFlow/sales_data_training.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="123" lean-forward="false" selection-start-line="0" selection-start-column="109" selection-end-line="0" selection-end-column="123" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Supervised Learning/NeauralNetworks/LyndaDNN - Tensorboard + Pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
