@@ -1,48 +1,59 @@
 import pandas as pd
 import tensorflow as tf
+from sklearn.preprocessing import minmax_scale
 
-training_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_training.csv")
-test_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_test.csv")
+training_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_training.csv",dtype=float)
+test_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_test.csv",dtype=float)
+
+X_train , Y_train = minmax_scale(training_data.drop("total_earnings",axis=1), [0,1]), minmax_scale(training_data["total_earnings"],[0,1]).reshape(-1,1)
+X_test , Y_test = minmax_scale(test_data.drop("total_earnings",axis=1), [0,1]), minmax_scale(test_data["total_earnings"],[0,1]).reshape(-1,1)
 
 data_len = 9
 
-with tf.VariableScope("Input"):
-    X = tf.placeholder(tf.float32,name="X")
+with tf.variable_scope("input"):
+    X = tf.placeholder(tf.float32, shape=(None, data_len))
 
 
 def get_model(inn):
-    with tf.VariableScope("layer1"):
-        l1_w = tf.get_variable(name="l1_weights",shape=[None, data_len],initializer=tf.random_normal_initializer)
-        l1_b = tf.get_variable(name="l1_biases",shape=[100])
-        l1_out = tf.nn.relu(tf.add(l1_w*inn, name="layer1_add")+l1_b,name="layer1_relu")
+    with tf.variable_scope("layer1"):
+        l1_w = tf.get_variable(name="l1_weights",shape=(data_len, 100), initializer=tf.contrib.layers.xavier_initializer())
+        l1_b = tf.get_variable(name="l1_biases",shape=[100], initializer=tf.zeros_initializer())
+        l1_out = tf.nn.relu(tf.matmul(inn,l1_w) + l1_b, name="layer1_relu")
 
-    with tf.VariableScope("layer2"):
-        l2_w = tf.get_variable(name="l2_weights",shape=[100, 50],initializer=tf.random_normal_initializer)
-        l2_b = tf.get_variable(name="l2_biases",shape=[50])
-        l2_out = tf.nn.relu(tf.add(l2_w*l1_out)+l2_b, name="layer2_relu")
+    with tf.variable_scope("layer2"):
+        l2_w = tf.get_variable(name="l2_weights",shape=[100, 50], initializer=tf.contrib.layers.xavier_initializer())
+        l2_b = tf.get_variable(name="l2_biases",shape=[50], initializer=tf.zeros_initializer())
+        l2_out = tf.nn.relu(tf.matmul(l1_out,l2_w) + l2_b, name="layer2_relu")
 
-    with tf.VariableScope("layer3"):
-        l3_w = tf.get_variable(name="l3_weights", shape=[50, 100], initializer=tf.random_normal_initializer)
-        l3_b = tf.get_variable(name="l3_biases", shape=[100])
-        l3_out = tf.nn.relu(   tf.add(l3_w * l2_out) + l3_b, name="layer3_relu")
+    with tf.variable_scope("layer3"):
+        l3_w = tf.get_variable(name="l3_weights", shape=[50, 100], initializer=tf.contrib.layers.xavier_initializer())
+        l3_b = tf.get_variable(name="l3_biases", shape=[100], initializer=tf.zeros_initializer())
+        l3_out = tf.nn.relu(tf.matmul(l2_out,l3_w) + l3_b, name="layer3_relu")
 
-    with tf.VariableScope("output"):
-        o_w = tf.get_variable(name="o_weights",shape=(100,1),initializer=tf.random_normal_initializer)
-        o_b = tf.get_variable(name="o_biases",shape=[1])
-        return tf.add(o_w,l3_out,name="o_add")+o_b
+    with tf.variable_scope("output"):
+        o_w = tf.get_variable(name="o_weights",shape=(100,1),initializer=tf.contrib.layers.xavier_initializer())
+        o_b = tf.get_variable(name="o_biases",shape=[1], initializer=tf.zeros_initializer())
+        return tf.matmul(l3_out,o_w) + o_b
 
 
-with tf.VariableScope("predict"):
+with tf.variable_scope("predict"):
     model = get_model(X)
 
-with tf.VariableScope("cost"):
-    Y = tf.placeholder(tf.float32, name="Y", shape=(None, 1))
-    cost = tf.reduce_mean(tf.squared_difference(model, Y, name="Squared Difference"),name="Mean")
+with tf.variable_scope("cost"):
+    Y = tf.placeholder(tf.float32, shape=(None, 1))
+    cost = tf.reduce_mean(tf.squared_difference(model, Y, name="SquaredDifference"), name="Mean")
 
-with tf.VariableScope("train"):
+with tf.variable_scope("train"):
     optimizer = tf.train.AdamOptimizer().minimize(cost)
 
 
 with tf.Session() as sess:
    sess.run(tf.global_variables_initializer())
-   cost = sess.run(optimizer, feed_dict={X:training_data.drop("total_earnings"), Y:training_data["total_earnings"]})
+
+   for i in range(100):
+        sess.run(optimizer, feed_dict={X:X_train, Y:Y_train})
+        if i % 10:
+            c = sess.run(cost,feed_dict={X: X_train, Y: Y_train})
+            print("Epoch {}: {}".format(i,c))
+
+
