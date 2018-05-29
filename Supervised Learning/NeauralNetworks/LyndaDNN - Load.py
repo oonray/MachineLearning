@@ -1,11 +1,8 @@
-import pandas as pd
 import tensorflow as tf
+import pandas as pd
 from sklearn.preprocessing import minmax_scale
 
-training_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_training.csv",dtype=float)
 test_data = pd.read_csv("./Ex_Files_TensorFlow/sales_data_test.csv",dtype=float)
-
-X_train , Y_train = minmax_scale(training_data.drop("total_earnings",axis=1), [0,1]), minmax_scale(training_data["total_earnings"],[0,1]).reshape(-1,1)
 X_test , Y_test = minmax_scale(test_data.drop("total_earnings",axis=1), [0,1]), minmax_scale(test_data["total_earnings"],[0,1]).reshape(-1,1)
 
 data_len = 9
@@ -48,24 +45,17 @@ with tf.variable_scope("train"):
 
 with tf.variable_scope("log"):
     tf.summary.scalar("cost", cost)
-    cost_sumamry = tf.summary.merge_all()
+    cost_scalar = tf.summary.merge_all()
 
 with tf.Session() as sess:
-    train_logger = tf.summary.FileWriter("./log/train", sess.graph)
-    test_logger = tf.summary.FileWriter("./log/test", sess.graph)
+    train_logger = tf.summary.FileWriter("./log/train")
+    test_logger = tf.summary.FileWriter("./log/test")
 
     sess.run(tf.global_variables_initializer())
 
     saver = tf.train.Saver()
+    saver.restore(sess,"./model/saved")
 
-    for i in range(100):
-        sess.run(optimizer, feed_dict={X:X_train, Y:Y_train})
-        if i % 10:
-            c_tr, tr_sc = sess.run([cost, cost_sumamry], feed_dict={X: X_train, Y: Y_train})
-            c_ts, ts_sc = sess.run([cost, cost_sumamry], feed_dict={X: X_test, Y: Y_test})
-            train_logger.add_summary(tr_sc, i)
-            test_logger.add_summary(ts_sc, i)
+    ret = sess.run(model, feed_dict={X: X_test})
 
-    path = saver.save(sess,"./model/saved")
-
-
+    print(ret)
